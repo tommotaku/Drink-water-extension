@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "Drink water",
+    "version": "1.0",
+    "description": "An extension to remind you to drink water after given interval",
+    "icons": {
+        "128": "icon128.png",
+        "48": "icon48.png",
+        "16": "icon16.png"
+    },
+    "browser_action": {
+        "default_icon": "icon16.png",
+        "default_popup": "water.html"
+    },
+
+    "background": {
+        "scripts": ["background.js"]
+       
+      },
+
+    "permissions":[
+        "notifications",
+        "tts"
+    ]
+}
